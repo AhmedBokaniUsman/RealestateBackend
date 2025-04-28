@@ -1,7 +1,7 @@
 export default () => ({
-    'users-permissions': {
+    "users-permissions": {
       config: {
-        jwtSecret: process.env.JWT_SECRET,
+        jwtSecret: process.env.JWT_SECRET,  // Use the JWT secret from your environment variables
       },
     },
   });
